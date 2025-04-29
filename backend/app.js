@@ -12,5 +12,8 @@ app.use(cookieParser())
 
 app.use('/api/user', userRoute)
 app.use('/api/contect', contectRoute)
+app.get('/', (req, re)=>{
+  res.send("hello this is backend")
+})
 
 export default app
