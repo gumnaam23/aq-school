@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.use(cookieParser())
 app.use(cors({
-  origin: 'https://aq-school-frontend.vercel.app', // Frontend ka URL
+  origin: 'https://aqschool.vercel.app/', // Frontend ka URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true,
 }));
