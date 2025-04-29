@@ -4,13 +4,13 @@ import { databaseConnection } from './connection.js'
 
 
 dotenv.config({path: './.env'})
-const port = process.env.PORT || 8000
+const PORT = process.env.PORT || 8000
 
 
 
 databaseConnection(process.env.MONGO_URI);
 
-app.listen(port, ()=>{
+app.listen(PORT, ()=>{
     console.log(`Server runing on port: ${port}`)
 })
 
