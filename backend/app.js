@@ -12,7 +12,7 @@ app.use(cookieParser())
 
 app.use('/api/user', userRoute)
 app.use('/api/contect', contectRoute)
-app.get('/', (req, re)=>{
+app.get('/', (req, res)=>{
   res.send("hello this is backend")
 })
 
