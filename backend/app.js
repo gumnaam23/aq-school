@@ -17,7 +17,7 @@ app.use(cors({
   credentials: true,
 }));
 
-app.use('/api/user', userRoute)
+app.use('/api', userRoute)
 app.use('/api', contectRoute)
 
 
