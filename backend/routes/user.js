@@ -3,8 +3,8 @@ import {handleSignup, handleLogin } from '../controllers/user.js'
 
 const router = express();
 
-router.post('/', handleSignup)
-router.post('/login', handleLogin)
+router.post('/user/', handleSignup)
+router.post('/user/login', handleLogin)
 
 
 export default router
