@@ -3,6 +3,6 @@ import {handleContect} from '../controllers/contect.js'
 
 const router = express.Router();
 
-router.post('/', handleContect);
+router.post('/contect', handleContect);
 
 export default router
